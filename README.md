@@ -2,10 +2,11 @@
 
 [![Build][image-build]][link-build]
 [![Windows Server 2019][image-verify-windows-2019]][link-verify-windows-2019]
-[![macOS Catalina][image-verify-macos-1015]][link-verify-macos-1015]
-[![Ubuntu 20.04][image-verify-ubuntu-2004]][link-verify-ubuntu-2004]
-[![Ubuntu 18.04][image-verify-ubuntu-1804]][link-verify-ubuntu-1804]
-[![Ubuntu 16.04][image-verify-ubuntu-1604]][link-verify-ubuntu-1604]
+[![macOS Catalina][image-verify-macos-10.15]][link-verify-macos-10.15]
+[![macOS Big Sur][image-verify-macos-11.0]][link-verify-macos-11.0]
+[![Ubuntu 20.04][image-verify-ubuntu-20.04]][link-verify-ubuntu-20.04]
+[![Ubuntu 18.04][image-verify-ubuntu-18.04]][link-verify-ubuntu-18.04]
+[![Ubuntu 16.04][image-verify-ubuntu-16.04]][link-verify-ubuntu-16.04]
 [![Release][image-release]][link-release]
 [![License][image-license]][link-license]
 [![Stars][image-stars]][link-stars]
@@ -15,7 +16,7 @@ This action installs SSH key in `~/.ssh`.
 Useful for SCP, SFTP, and `rsync` over SSH in deployment script.
 
 **Works on all [virtual environments](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/virtual-environments-for-github-hosted-runners#supported-runners-and-hardware-resources) --**
-**Windows Server 2019, macOS Catalina, Ubuntu 20.04, Ubuntu 18.04, and Ubuntu 16.04.**
+**Windows Server 2019, macOS Big Sur, macOS Catalina, Ubuntu 20.04, Ubuntu 18.04, and Ubuntu 16.04.**
 
 ## Usage
 
@@ -136,14 +137,16 @@ See [CHANGELOG.md](CHANGELOG.md).
 [link-build]: https://github.com/shimataro/ssh-key-action/actions?query=workflow%3ABuild
 [image-verify-windows-2019]: https://github.com/shimataro/ssh-key-action/workflows/Windows%20Server%202019/badge.svg?event=push&branch=v2
 [link-verify-windows-2019]: https://github.com/shimataro/ssh-key-action/actions?query=workflow%3A%22Windows+Server+2019%22
-[image-verify-macos-1015]: https://github.com/shimataro/ssh-key-action/workflows/macOS%20Catalina/badge.svg?event=push&branch=v2
-[link-verify-macos-1015]: https://github.com/shimataro/ssh-key-action/actions?query=workflow%3A%22macOS+Catalina%22
-[image-verify-ubuntu-2004]: https://github.com/shimataro/ssh-key-action/workflows/Ubuntu%2020.04/badge.svg?event=push&branch=v2
-[link-verify-ubuntu-2004]: https://github.com/shimataro/ssh-key-action/actions?query=workflow%3A%22Ubuntu+20.04%22
-[image-verify-ubuntu-1804]: https://github.com/shimataro/ssh-key-action/workflows/Ubuntu%2018.04/badge.svg?event=push&branch=v2
-[link-verify-ubuntu-1804]: https://github.com/shimataro/ssh-key-action/actions?query=workflow%3A%22Ubuntu+18.04%22
-[image-verify-ubuntu-1604]: https://github.com/shimataro/ssh-key-action/workflows/Ubuntu%2016.04/badge.svg?event=push&branch=v2
-[link-verify-ubuntu-1604]: https://github.com/shimataro/ssh-key-action/actions?query=workflow%3A%22Ubuntu+16.04%22
+[image-verify-macos-11.0]: https://github.com/shimataro/ssh-key-action/workflows/macOS%20Big%20Sur/badge.svg?event=push&branch=v2
+[link-verify-macos-11.0]: https://github.com/shimataro/ssh-key-action/actions?query=workflow%3A%22macOS+Big+Sur%22
+[image-verify-macos-10.15]: https://github.com/shimataro/ssh-key-action/workflows/macOS%20Catalina/badge.svg?event=push&branch=v2
+[link-verify-macos-10.15]: https://github.com/shimataro/ssh-key-action/actions?query=workflow%3A%22macOS+Catalina%22
+[image-verify-ubuntu-20.04]: https://github.com/shimataro/ssh-key-action/workflows/Ubuntu%2020.04/badge.svg?event=push&branch=v2
+[link-verify-ubuntu-20.04]: https://github.com/shimataro/ssh-key-action/actions?query=workflow%3A%22Ubuntu+20.04%22
+[image-verify-ubuntu-18.04]: https://github.com/shimataro/ssh-key-action/workflows/Ubuntu%2018.04/badge.svg?event=push&branch=v2
+[link-verify-ubuntu-18.04]: https://github.com/shimataro/ssh-key-action/actions?query=workflow%3A%22Ubuntu+18.04%22
+[image-verify-ubuntu-16.04]: https://github.com/shimataro/ssh-key-action/workflows/Ubuntu%2016.04/badge.svg?event=push&branch=v2
+[link-verify-ubuntu-16.04]: https://github.com/shimataro/ssh-key-action/actions?query=workflow%3A%22Ubuntu+16.04%22
 [image-release]: https://img.shields.io/github/release/shimataro/ssh-key-action.svg
 [link-release]: https://github.com/shimataro/ssh-key-action/releases
 [image-license]: https://img.shields.io/github/license/shimataro/ssh-key-action.svg
